@@ -10,6 +10,6 @@
   "devDependencies": {
     "lite-server": "^2.6.1"
   },
-  "author": "Ihr Name",  
+  "author": "Max Mustermann",  
   "license": "MIT"
 }
