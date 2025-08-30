@@ -9,7 +9,10 @@
     "build": "webpack --mode production",  // Script zum Erstellen der Produktionsbuilds
     "lint": "eslint ."  // Script zur Überprüfung des Codes auf Stilprobleme
   },
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^4.17.21",  // Hinzufügen von Lodash als Abhängigkeit
+    "axios": "^0.21.1"  // Hinzufügen von Axios als Abhängigkeit
+  },
   "devDependencies": {
     "lite-server": "^2.6.1",  // Entwicklungsabhängigkeit für den Lite-Server
     "webpack": "^5.0.0",  // Entwicklungsabhängigkeit für das Bundling
