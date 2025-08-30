@@ -4,11 +4,11 @@
   "description": "Ein interaktives Lern-Tool, das Lehrer und Schüler über die Bedeutung von Technologie im Bildungsbereich aufklärt.",
   "main": "src/app.js",
   "scripts": {
-    "start": "lite src/index.html"
+    "start": "lite src/index.html"  // Startet den Lite-Server für die Index-HTML-Datei
   },
   "dependencies": {},
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1"  // Entwicklungsabhängigkeit für den Lite-Server
   },
   "author": "Max Mustermann",  
   "license": "MIT"
