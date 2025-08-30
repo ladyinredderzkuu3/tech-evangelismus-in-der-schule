@@ -5,11 +5,15 @@
   "main": "src/app.js",
   "scripts": {
     "start": "lite src/index.html",  // Startet den Lite-Server für die Index-HTML-Datei
-    "test": "echo 'No tests specified' && exit 0"  // Platzhalter für zukünftige Tests
+    "test": "echo 'No tests specified' && exit 0",  // Platzhalter für zukünftige Tests
+    "build": "webpack --mode production",  // Script zum Erstellen der Produktionsbuilds
+    "lint": "eslint ."  // Script zur Überprüfung des Codes auf Stilprobleme
   },
   "dependencies": {},
   "devDependencies": {
-    "lite-server": "^2.6.1"  // Entwicklungsabhängigkeit für den Lite-Server
+    "lite-server": "^2.6.1",  // Entwicklungsabhängigkeit für den Lite-Server
+    "webpack": "^5.0.0",  // Entwicklungsabhängigkeit für das Bundling
+    "eslint": "^7.0.0"  // Entwicklungsabhängigkeit für die Codeüberprüfung
   },
   "author": "Max Mustermann",
   "license": "MIT",
