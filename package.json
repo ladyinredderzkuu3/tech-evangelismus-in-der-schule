@@ -9,5 +9,7 @@
   "dependencies": {},
   "devDependencies": {
     "lite-server": "^2.6.1"
-  }
+  },
+  "author": "Ihr Name",  
+  "license": "MIT"
 }
