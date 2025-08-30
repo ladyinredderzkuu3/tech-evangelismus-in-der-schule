@@ -11,5 +11,6 @@
     "lite-server": "^2.6.1"  // Entwicklungsabhängigkeit für den Lite-Server
   },
   "author": "Max Mustermann",  
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://example.com"  // Homepage der Anwendung
 }
